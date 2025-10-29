@@ -1,4 +1,4 @@
-# HackerRank QA Developer Interview Challenge
+# Test QA Developer Interview Challenge
 
 ## Problem Statement
 
