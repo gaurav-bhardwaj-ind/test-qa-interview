@@ -1,0 +1,163 @@
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-box {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 10px 0;
+  font-size: 28px;
+}
+
+.subtitle {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.content {
+  padding: 40px;
+}
+
+.result-card {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border-left: 4px solid #667eea;
+}
+
+.result-card h2 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.random-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #667eea;
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  border: 2px dashed #667eea;
+}
+
+.analysis {
+  margin-top: 20px;
+}
+
+.analysis p {
+  margin: 10px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.analysis strong {
+  color: #333;
+  font-weight: 600;
+}
+
+.status-badge {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.info-card {
+  background: #f0f4ff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e7ff;
+}
+
+.info-card h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+  font-size: 16px;
+}
+
+.info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-card li {
+  padding: 8px 0;
+  color: #555;
+  border-bottom: 1px solid #e0e7ff;
+}
+
+.info-card li:last-child {
+  border-bottom: none;
+}
+
+.info-card strong {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.test-helpers {
+  background: #f5f5f5;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border-top: 2px solid #ddd;
+  font-size: 12px;
+}
+
+.test-note {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-weight: 600;
+}
+
+.test-helpers code {
+  display: block;
+  background: #fff;
+  padding: 8px;
+  margin: 5px 0;
+  border-left: 2px solid #667eea;
+  font-family: 'Monaco', 'Courier New', monospace;
+  color: #333;
+  overflow-x: auto;
+}
+
+.error-box {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  text-align: center;
+  color: #c33;
+  font-size: 18px;
+}
